@@ -61,6 +61,6 @@ INSTRUCTIONS TO RUN THE WEBSITE/ WEB APPLICATION :
 10. You can view the current day attendance (the checked in students and due to check in students), attendance on other dates, low attendance candidates in each class, attendance analytics of each class and the overall attendance of the students of a class.
 11. Other features include a search page and record attendance page for recording the attendance through an uploaded image.
 12. Similarly, you can login to the Student Interface with any of the credentials. The home page is the profile of the student. 
-13. You can navigate to the page which confirms your attendance for the current day or the page which displays your total attendanca along with the monthly based attendance.
+13. You can navigate to the page which confirms your attendance for the current day or the page which displays your total attendance along with the monthly based attendance.
 14. For logging out of the interfaces you have to click on your profile name on the top so that you get the logout button. On logging out, you arrive at the main home page (index.php).
 
