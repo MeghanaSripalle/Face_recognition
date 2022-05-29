@@ -1,23 +1,18 @@
-This the ReadMe File for this Face Recognition project.
+This is the ReadMe File for this Face Recognition project.
 
 INTRODUCTION : 
-This project is a web application of a Face Recognition based Attendance System for a different classes in a school. It recognises the students through a webcam or uploaded picture and updates their attendance for that date. 
-There are two interfaces, namely, the Student interface and Teacher interface. Through the home page (index.php), we can navigate to the login page of students, login page of the teachers or the attendance
-recording page (attendance can be recorded through the webcam here). By logging into the teacher interface, we can view the attendances of the students on various dates, the attendance for the current day
-along with the check in time and other features too. 
+This project is a web application of a Face Recognition based Attendance System for different classes in a school. It recognises the students through a webcam or uploaded picture and updates their attendance for that date. 
+There are two interfaces, namely, the Student interface and Teacher interface. Through the home page (index.php), we can navigate to the login page of students, login page of the teachers or the attendance recording page (attendance can be recorded through the webcam here). By logging into the teacher interface, we can view the attendances of the students on various dates, the attendance for the current day along with the check in time and other features too. 
 
 TECHNOLOGIES USED :
-I have used HTML, CSS, BootStrap and Javascript for the front-end development. Ajax has been used for communication between Javascript and PHP, the server-side scripting language. PHP and MySQL have been used for the backend 
-development. MySQL has been used for the Database.
+I have used HTML, CSS, BootStrap and Javascript for the front-end development. Ajax has been used for communication between Javascript and PHP, the server-side scripting language. PHP and MySQL have been used for the backend development. MySQL has been used for the Database.
 
 DATABASE :
-The name of the database is AttendanceSystem. It has 14 tables : Students, Admins and the 12 different months. The tables named the different months of the year contain details about the attendance of the students on different days
-in that particular month. The table 'Students' contains information regarding the students and 'Admins' contains details regarding the teachers. The database will be created when you open the home page (index.php) and run it for the first time. The username is "root" and the password is "". 
+The name of the database is AttendanceSystem. It has 14 tables : Students, Admins and the 12 different months. The tables named as the different months of the year contain details about the attendance of the students on different days in that particular month. The table 'Students' contains information regarding the students and 'Admins' contains details regarding the teachers. The database will be created when you open the home page (index.php) and run it for the first time. The username is "root" and the password is "". 
 
 FEATURES : 
 Recording Attendance (attendance.php) :
-Record your attendance if you are a student through the webcam on this page. It has stop and start options for the webcam. The face recognition takes a little bit of time. The face recognition has been done using the face-api.js library.
-On face recognition, a detection box with your name will be displayed.
+Record your attendance if you are a student through the webcam on this page. It has stop and start options for the webcam. The face recognition takes a little bit of time. The face recognition has been done using the face-api.js library. On face recognition, a detection box with your name will be displayed.
 
 Teacher Interface:
 1. Viewing the current day's attendance: You can view the updated attendance of each class for that day. All you have to do is enter the class in the search box.
