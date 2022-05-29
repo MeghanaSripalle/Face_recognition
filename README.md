@@ -59,3 +59,7 @@ INSTRUCTIONS TO RUN THE WEBSITE/ WEB APPLICATION :
 13. You can navigate to the page which confirms your attendance for the current day or the page which displays your total attendance along with the monthly based attendance.
 14. For logging out of the interfaces you have to click on your profile name on the top so that you get the logout button. On logging out, you arrive at the main home page (index.php).
 
+The webcam face recognition looks like the following image :
+
+![image](https://user-images.githubusercontent.com/88918638/170881858-84ce7c61-894c-4c44-8b1c-f07213592459.png)
+
