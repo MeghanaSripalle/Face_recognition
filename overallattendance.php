@@ -247,7 +247,11 @@ include 'dbopen.php';
                                                                             </thead>
                                                                             <tbody>';
                                             $date = $dates->fetch_assoc();
-                                            $nmonth = date('m',strtotime($month));
+                                            if($month == "February"){
+                                                $nmonth = 02;
+                                            }else{
+                                               $nmonth = date('m',strtotime($month));
+                                            }
                                             $year = 2022;
                                             if($nmonth < 5){
                                                 $year = 2023;
